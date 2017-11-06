@@ -4,6 +4,7 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       format.html
+      format.text
     end
   end
 
